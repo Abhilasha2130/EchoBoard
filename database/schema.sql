@@ -25,4 +25,8 @@ CREATE TABLE feedback (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
   FOREIGN KEY (product_id) REFERENCES products(id) ON DELETE CASCADE
+<<<<<<< HEAD
 );
+=======
+);
+>>>>>>> ec0996c16cfc11512217fdeea54ed32bc147704b
